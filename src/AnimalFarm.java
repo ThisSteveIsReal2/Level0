@@ -12,7 +12,7 @@ public class AnimalFarm {
 		 * 1. Ask the user which animal they want, then play the sound of that
 		 * animal.
 		 */
-		for (int i = 0; i < 5; i++) {
+		for (int i = 0; i < 10; i++) {
 			
 		
 String Steve=JOptionPane.showInputDialog("Which animal do you want?");
