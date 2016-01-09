@@ -18,7 +18,7 @@ public class XGeeks {
 		String Joon = "You have Jedi mind tricks";
 		String Kira = "You can run supa dupa fast";
 		String Khia = "You have the ability to change into a Alicorn";
-		String Courtaney ="You are the best person in the entire world";
+		String Courtaney ="You are the best mom in the entire world";
 		String Vinh = "You are the best vido gamer in the world";
 		// 2. Ask the user to enter a name. Store their answer in a variable.
 		String Dino = JOptionPane.showInputDialog(null, "What is your name?");
