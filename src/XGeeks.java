@@ -12,6 +12,9 @@ public class XGeeks {
 	public static void main(String[] args) {
 
 		// 1. Save the superpower for each person in a variable.
+		   
+				
+		   
 		String Bob = "You can eat 10 pizza's and become a cat";
 		String Noelani = "You have the ability to Adaptobility";
 		String Nancy = " You are a Motovater";
@@ -20,12 +23,14 @@ public class XGeeks {
 		String Khia = "You have the ability to change into a Alicorn";
 		String Courtaney ="You are the best mom in the entire world";
 		String Vinh = "You are the best vido gamer in the world";
+		String Chrisette = "You have the power of supa fuss box";
 		// 2. Ask the user to enter a name. Store their answer in a variable.
+		 for (int i = 0; i < 9; i++) {
 		String Dino = JOptionPane.showInputDialog(null, "What is your name?");
 
-		
-
 		// 3. Show the superpower in a pop-up, depending on the name entered.
+		  
+				
 		if (Dino.equals("Bob")) {
 			JOptionPane.showMessageDialog(null, Bob);
 		}
@@ -45,14 +50,22 @@ public class XGeeks {
 		if (Dino.equals("Kira")) {
 			JOptionPane.showMessageDialog(null, Kira);
 			}
+		
 		if (Dino.equals("Khia")) {
 			JOptionPane.showMessageDialog(null, Khia);
 }
-		if (Dino.equals("Courtaney")) {
+		
+		if (Dino.equals("Courtenay")) {
 			JOptionPane.showMessageDialog(null, Courtaney);
 		}
+		
 		if (Dino.equals("Vinh")) {
 			JOptionPane.showMessageDialog(null, Vinh);
 		}
+		
+		if (Dino.equals("Chrisette")) {
+			JOptionPane.showMessageDialog(null, Chrisette);
+}
+}
 }
 }
