@@ -18,6 +18,8 @@ public class BananaQuiz
 			//and end quiz
 		if  (dino.equals("yes")) {
 			JOptionPane.showMessageDialog(null,"You are Awesome!!!");
+			JOptionPane.showInputDialog(null, "Then what's your favorite hobbie?");
+			JOptionPane.showMessageDialog(null, dino+ " would be much better with bananas!");
 		}
 		if (dino.equals("no")){
 			JOptionPane.showMessageDialog(null, "Your weird");
