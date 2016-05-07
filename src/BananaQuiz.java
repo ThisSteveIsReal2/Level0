@@ -18,8 +18,13 @@ public class BananaQuiz
 			//and end quiz
 		if  (dino.equals("yes")) {
 			JOptionPane.showMessageDialog(null,"You are Awesome!!!");
+<<<<<<< Updated upstream
 			JOptionPane.showInputDialog(null, "Then what's your favorite hobbie?");
 			JOptionPane.showMessageDialog(null, dino+ " would be much better with bananas!");
+=======
+		String pickel =	JOptionPane.showInputDialog(null, "What is your favorite hobby?");
+			JOptionPane.showMessageDialog(null, pickel+ " would be much better with bananas!");
+>>>>>>> Stashed changes
 		}
 		if (dino.equals("no")){
 			JOptionPane.showMessageDialog(null, "Your weird");
